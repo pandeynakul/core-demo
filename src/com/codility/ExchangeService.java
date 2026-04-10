@@ -1,0 +1,8 @@
+package com.codility;
+
+import java.math.BigDecimal;
+import java.util.Optional;
+
+public interface ExchangeService {
+    Optional<BigDecimal> rate(String currency);
+}
