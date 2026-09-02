@@ -26,7 +26,12 @@ public class TwoSum {
 
         Map<Integer, Integer> map = new HashMap<>();
         for(int i=0;i<nums.length;i++){
-
+            int complement = target - nums[i];
+            System.out.println("complement "+complement);
+            // store value with its index
+            //value : index
+            map.put(nums[i], i);
+            System.out.println(map);
 
         }
 
